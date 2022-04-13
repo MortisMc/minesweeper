@@ -1,0 +1,35 @@
+html {
+  overflow-y: overlay;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  /* padding: 10px; */
+}
+
+#root {
+  height: 100%;
+
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mine {
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
